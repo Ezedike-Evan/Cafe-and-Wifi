@@ -1,3 +1,4 @@
+import os
 from flask import Flask, flash, redirect, render_template, url_for
 from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
@@ -12,7 +13,7 @@ def verify_api_key(entered_api_key):
     return False
 
 
-API_KEY = "Arandomapikey"
+API_KEY = os.getenv("API_KEY")
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = API_KEY
