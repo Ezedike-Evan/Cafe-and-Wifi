@@ -18,7 +18,11 @@ API_KEY = os.getenv("API_KEY")
 app = Flask(__name__)
 app.config["SECRET_KEY"] = API_KEY
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///cafes.db"
+uri = os.getenv("DATABASE_URL", "sqlite:///blog.db")
+if uri.startswith("postgres://"):
+    uri = uri.replace("postgres://", "postgresql://", 1)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = uri
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
