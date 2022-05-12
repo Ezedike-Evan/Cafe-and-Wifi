@@ -18,7 +18,7 @@ API_KEY = os.getenv("API_KEY")
 app = Flask(__name__)
 app.config["SECRET_KEY"] = API_KEY
 
-uri = os.getenv("DATABASE_URL", "sqlite:///blog.db")
+uri = os.getenv("DATABASE_URL", "sqlite:///cafes.db")
 if uri.startswith("postgres://"):
     uri = uri.replace("postgres://", "postgresql://", 1)
 

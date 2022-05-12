@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f2d9af-ab87-4902-b3a8-e7067189a9b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650922187694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed environment variables from code">
+      <created>1652356588359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652356588359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Migrated from SQLite to Postgres">
+      <created>1652356788147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652356788147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -69,6 +85,9 @@
     <MESSAGE value="Added Procfile" />
     <MESSAGE value="Removed debug parameter from app.run" />
     <MESSAGE value="Corrected typo: Cafes abd wifi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected typo: Cafes abd wifi" />
+    <MESSAGE value="Removed environment variables from code" />
+    <MESSAGE value="Migrated from SQLite to Postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrated from SQLite to Postgres" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
