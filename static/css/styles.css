@@ -48,9 +48,6 @@ input, .form-check {
     color: #470D21;
     border: none;
 }
-
-
-
 .navbar {
     padding: 4.5rem 4.5rem 4.5rem 2rem;
 }
@@ -60,10 +57,6 @@ input, .form-check {
 .navbar .navbar-nav .nav-link:hover{
     color: #470D21;
 }
-
-
-
-
 .card {
     background-color: tan;
     padding: 1rem;
@@ -82,20 +75,12 @@ input, .form-check {
     line-height: 1rem;
     text-align: left;
 }
-
-
-
-
 .cafe-form {
     width: 50%;
     margin: auto;
     text-align: left;
     padding: 1rem;
 }
-
-
-
-
 .cafe-page-table {
     width: 70%;
     margin: auto;
@@ -120,8 +105,6 @@ input, .form-check {
 .cafe-page-buttons-div .btn{
     margin: 1rem;
 }
-
-
 .social-icon {
     padding: 0.5rem;
     color: #F9E4D4;;
@@ -129,10 +112,6 @@ input, .form-check {
 .social-icon:hover {
     color: tan;
 }
-
-
-
-
 .footer-div {
     background-color: #470D21;
     color: #F9E4D4;
